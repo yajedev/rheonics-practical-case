@@ -1,0 +1,51 @@
+/* contact banner */
+.contact-banner {
+  padding: 80px 0;
+  margin: 0;
+}
+.contact-banner .container {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #37aae1;
+  background:
+    linear-gradient(
+      287deg,
+      rgba(55, 170, 225, 0) 25.43%,
+      rgba(91, 185, 238, 0.17) 49.86%,
+      rgba(135, 203, 255, 0) 80.2%
+    ),
+    linear-gradient(
+      273deg,
+      rgba(55, 170, 225, 0) -104.06%,
+      rgba(0, 144, 255, 0.09) 91.91%
+    ),
+    rgba(129, 214, 255, 0);
+  box-shadow: 0 20px 50px 0 rgba(219, 219, 219, 0.5);
+}
+
+.contact-banner .cta-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-banner .btn {
+  border-radius: 8px;
+  border: 1px solid #0f5387;
+  background: #eceef2;
+  display: flex;
+  height: 40px;
+  padding: 9px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: #0f5387;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contact-banner .btn:hover {
+  text-decoration: underline;
+}

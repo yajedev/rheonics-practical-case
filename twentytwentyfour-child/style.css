@@ -1,0 +1,24 @@
+/*
+  Theme Name:   Twenty Twenty-Four Child
+  Theme URI:    ""
+  Description:  Default Twenty Twenty-Four child theme
+  Template:     twentytwentyfour
+  Version:      1.0.0
+*/
+
+@import url("assets/css/partials/archive-hero.css");
+@import url("assets/css/partials/contact-banner.css");
+@import url("assets/css/archive-social_media.css");
+@import url("assets/css/single-social_media.css");
+
+h1,
+h2,
+h3 {
+  color: #001c3d;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
